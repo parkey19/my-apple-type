@@ -1,9 +1,9 @@
 const answer = [
   { answer: '매우 그런 편이다', value: 5 },
   { answer: '그런 편이다', value: 4 },
-  { answer: '보통이다.', value: 3 },
-  { answer: '그렇지 않은 편이다.', value: 2 },
-  { answer: '매우 그렇지 않다.', value: 1 },
+  { answer: '보통이다', value: 3 },
+  { answer: '그렇지 않은 편이다', value: 2 },
+  { answer: '매우 그렇지 않다', value: 1 },
 ]
 
 const qnaList = [
@@ -265,6 +265,6 @@ const infoList = [
 '열매 익는 시기: 10월 하순'+ '\n\n' +
 '색깔: 선홍색'+ '\n\n' +
 '식감: 한국에서 가장 많이 알려진 사과로 맛의 조화가 좋아서 인기가 있는 품종이다.'+ '\n\n' +
-'저장기간: 냉장시 180일 정도'+ '\n\n' 
+'저장기간: 냉장시 180일 정도'+ '\n\n'
   }
 ]
