@@ -65,12 +65,8 @@ function addAnswer(answerText, qIdx, idx){
     setTimeout(() => {
       var target = qnaList[qIdx].a[idx].value;
       console.log(qIdx + ' ::::: '+ idx + '::: result value ' + target );
-
-      if (qIdx<5) {
-        select[0] += target;
-      } else {
-        select[1] += target;
-      }
+      var index = parseInt(qIdx/5);
+      select[index] += target;
 
       for(let i = 0; i < children.length; i++){
         children[i].style.display = 'none';
