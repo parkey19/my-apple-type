@@ -106,3 +106,7 @@ function begin(){
     goNext(qIdx);
   }, 450);
 }
+
+function moveReultPage() {
+  location.href = "./page/result.html";
+}

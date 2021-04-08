@@ -29,6 +29,14 @@
   border-radius: 20px;
 }
 
+.resultButton{
+  color: white;
+  background-color: #FF0000;
+  font-size: 20px;
+  border: 0px;
+  border-radius: 20px;
+}
+
 .kakao:hover, .kakao:focus {
   background-color: whitesmoke;
   color: #FEE500;
