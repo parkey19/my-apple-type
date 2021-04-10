@@ -2,14 +2,14 @@ const main = document.querySelector("#main");
 const qna = document.querySelector("#qna");
 const result = document.querySelector("#result");
 
-const endPoint = 45;
+const endPoint = 27;
 const select = [0, 0, 0, 0, 0, 0, 0, 0, 0];
 
 function calResult(){
 
   console.log('result point :' + select[0] + ' :: ' + select[1]);
   var result = select.indexOf(Math.max(...select));
-  console.log('calResult :' + result);
+  // console.log('calResult :' + result);
   return result;
 }
 
